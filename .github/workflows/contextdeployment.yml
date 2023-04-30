@@ -1,0 +1,8 @@
+name: Print Pull Request Context
+on: workflow_dispatch
+jobs:
+  deploy:
+    runs-on: macOS-latest
+    steps:
+      - name: Print cotext
+        run: echo "${{ github }}"
