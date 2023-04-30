@@ -5,4 +5,4 @@ jobs:
     runs-on: macOS-latest
     steps:
       - name: Print cotext
-        run: echo "${{ github }}"
+        run: echo "${{ toJSON(github) }}"
