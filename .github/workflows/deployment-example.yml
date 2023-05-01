@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get the repository code
         uses: actions/checkout@v3
-      - namr: Cache deps
+      - name: Cache deps
         uses: actions/cache@v3
         with: 
           path: ~/.npm
@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Get the repository code
         uses: actions/checkout@v3
-      - namr: Cache deps
+      - name: Cache deps
         uses: actions/cache@v3
         with: 
           path: ~/.npm
@@ -35,7 +35,7 @@ jobs:
     steps:
       - name: Get the repository code
         uses: actions/checkout@v3
-      - namr: Cache deps
+      - name: Cache deps
         uses: actions/cache@v3
         with: 
           path: ~/.npm
