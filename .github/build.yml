@@ -2,7 +2,11 @@ name: Build
 on: [push, workflow_dispatch]
 jobs:
   build:
+<<<<<<< HEAD
     runs-on: macOS-latest
+=======
+    runs-on macOS-latest
+>>>>>>> 320a965907c48c17f99a1a7d7af3048d47aa594c
     steps:
       - name: Get code
         uses: actions/checkout@v3
